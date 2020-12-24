@@ -99,8 +99,8 @@ The summary of the files and folders within repo is provided in the table below:
 Here are the key commands for installation:
 
 	- `apt update`
-    - `apt upgrade`
-    - `apt install default-jdk`
+	- `apt upgrade`
+	- `apt install default-jdk`
 
 The Jenkins version you get with the default Ubuntu packages is often not the latest available version you can get from the Jenkins project itself. For the most recent features and fixes, you can use the packages from the Jenkins site to install Jenkins.
 
