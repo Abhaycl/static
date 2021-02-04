@@ -6,7 +6,7 @@ In this tutorial, we will launch an Amazon Elastic Compute Cloud (EC2) instance.
     <img src ="./images/EC2Creation1.jpg" />
 </p>
 
-##A. Prerequisite
+## Prerequisite
 
 1. You should have an AWS account.
 2. Crear un usuario administrador IAM y un usuario normal IAM.
@@ -14,7 +14,7 @@ In this tutorial, we will launch an Amazon Elastic Compute Cloud (EC2) instance.
 4. Crear un par de claves.
 5. Crear la VPC por defecto.
 
-##B. Go to the EC2 Dashboard
+## Go to the EC2 Dashboard
 
 1. Log in to your AWS account, and go to the AWS Management Console. Select the EC2 service.
 
