@@ -8,13 +8,13 @@ We can connect to our Linux/Ubuntu EC2 instance using the private key generated 
 
 Connect to the selected instance. Note the public DNS.
 
-AWS has launched the EC2 Instance Connect wizard, which can help you to connect directly from the EC2 dashboard. Alternatively, you can use SSH as well. 
+AWS has launched the EC2 Instance Connect wizard, which can help you to connect directly from the EC2 dashboard. Alternatively, you can use SSH as well.
 
 <p align="center">
     <img src ="./images/EC2Connect2.jpg" />
 </p>
 
-You can connect using the **EC2 Instance Connect** wizard. 
+You can connect using the **EC2 Instance Connect** wizard.
 
 ### Linux/Mac users
 
@@ -24,11 +24,11 @@ Linux/Mac users can log into your EC2 instance using Secure Shell (SSH) client. 
     <img src ="./images/EC2Connect3.jpg" />
 </p>
 
-Connect using SSH. Copy the commands and follow the steps mentioned above. 
+Connect using SSH. Copy the commands and follow the steps mentioned above.
 
 1. Change the Private key file permissions
 
-Open an SSH client/terminal. Navigate to the directory where you have your private key (.pem) file in your local machine, and change the permissions to hide it from the public for SSH to work, using the command 
+Open an SSH client/terminal. Navigate to the directory where you have your private key (.pem) file in your local machine, and change the permissions to hide it from the public for SSH to work, using the command:
 
 ```
     chmod 400 <path of private key .pem file locally>
@@ -50,7 +50,7 @@ The successful login will show you a prompt as shown in the snapshot below:
     <img src ="./images/EC2Connect4.jpg" />
 </p>
 
-Successful login using SSH. Notice the private IPv4 address at the prompt is ```172.31.23.177```, which you can also see in your EC2 dashboard. 
+Successful login using SSH. Notice the private IPv4 address at the prompt is ```172.31.23.177```, which you can also see in your EC2 dashboard.
 
 ### Windows users
 
@@ -62,23 +62,23 @@ Windows users can log in using PuTTY utility. The following are the steps:
 
 2. You will need to have your PuTTY Private Key (.ppk) file locally. For this reason, we will use _PuTTYgen_ utility to convert the .pem file to .ppk format.
 
-	o Run the _PuTTYgen_ in your machine. 
-	o Click **Load**, as shown in the snapshot below. 
-	o Browse and load the .pem key into the _PuTTYgen_ and then click on **Save private key** to save the key in .ppk format without a passphrase. 
+	- Run the _PuTTYgen_ in your machine.
+	- Click **Load**, as shown in the snapshot below.
+	- Browse and load the .pem key into the _PuTTYgen_ and then click on **Save private key** to save the key in .ppk format without a passphrase.
 
 <p align="center">
-    <img src ="./images/EC2Connect5.jpg" />
+    <img src ="./images/EC2Connect5.jpg" /><br>
 	<img src ="./images/EC2Connect6.jpg" />
 </p>
  
-3. Run the PuTTY to connect to the EC2 instance. 
-4. Get the public DNS / IP address of your EC2 instance (host) from your AWS EC2 dashboard. Then, enter the public DNS / IP address of your EC2 instance (host) into the _PuTTY_. See snapshot below. 
+3. Run the PuTTY to connect to the EC2 instance.
+4. Get the public DNS / IP address of your EC2 instance (host) from your AWS EC2 dashboard. Then, enter the public DNS / IP address of your EC2 instance (host) into the _PuTTY_. See snapshot below.
 
 <p align="center">
     <img src ="./images/EC2Connect7.jpg" />
 </p>
 
-5. Click on Connection → Data to enter the default username as ubuntu for ```Ubuntu```, or ```ec2-user``` for Linux based OS. 
+5. Click on Connection → Data to enter the default username as ubuntu for ```Ubuntu```, or ```ec2-user``` for Linux based OS.
 
 6. Click on Connection → SSH → Auth to upload the .ppk file. See the snapshot below:
 
