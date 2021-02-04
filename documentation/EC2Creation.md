@@ -1,6 +1,4 @@
-<p align="center">
 # Guide to creating an EC2 instance
-</p>
 
 In this tutorial, we will launch an Amazon Elastic Compute Cloud (EC2) instance. An EC2 instance is a Virtual Machine (VM) with user-defined configuration that runs on the cloud.
 
